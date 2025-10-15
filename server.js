@@ -57,5 +57,5 @@ app.get("/api/search", async (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
-  console.log(`🌐 CORS allowed from: ${CLIENT_URL}`);
+  console.log(`🌐 CORS allowed from: ${CLIENT__URL}`);
 });
