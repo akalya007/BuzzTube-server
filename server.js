@@ -7,11 +7,11 @@ const fetch = require("node-fetch");
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const CLIENT_URL ="https://buzztube-frontend.onrender.com";
+const CLIENT__URL ="https://buzztube-frontend.onrender.com";
 
 app.use(
   cors({
-    origin: CLIENT_URL,
+    origin: CLIENT__URL,
     methods: ["GET"],
   })
 );
